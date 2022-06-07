@@ -2,19 +2,20 @@ body {
     background-color: #111111;
 }
 
-.container {
-    padding: 50px;
+.study__container {
+    padding: 150px;
     margin: 0 auto;
-    width: 1200px;
+    display: inline-flex;
+    flex-direction: column;
 }
 
 a {
     text-decoration: none;
 }
 
-.link {
+.study__link {
     display: inline-block;
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 600;
     text-align: center;
     color: #ffffff;
@@ -25,12 +26,12 @@ a {
     padding: 5px 15px;
 }
 
-.link:not(:last-child) {
-    margin-right: 50px;
+.study__link:not(:last-child) {
+    margin-bottom: 50px;
 }
 
-.link:hover,
-.link:focus {
+.study__link:hover,
+.study__link:focus {
     background-color: #ffffff;
     color: #FF6B01;
     border: none;
